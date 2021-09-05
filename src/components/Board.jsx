@@ -18,8 +18,14 @@ class Board extends Component {
     
         return (
             <div>
-            <Rows renderSquare={this.renderSquare} squares={this.props.squares}/>
-
+                <div className='title'>
+                    <div>
+                        Eight Queens Game
+                    </div>
+                </div>
+                <div>
+                    <Rows renderSquare={this.renderSquare} squares={this.props.squares}/>
+                </div>
             </div>
         );
     }

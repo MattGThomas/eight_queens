@@ -1,4 +1,5 @@
-import '../../index.css'
+import './squares.css'
+
 function NumberSquare(props) {
     return (
         <button

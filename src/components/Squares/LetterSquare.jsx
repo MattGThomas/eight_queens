@@ -1,4 +1,4 @@
-
+import './squares.css'
 function LetterSquare(props) {
     return (
         <button
