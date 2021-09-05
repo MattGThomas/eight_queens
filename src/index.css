@@ -76,7 +76,7 @@ ol, ul {
         border-bottom: white
         
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .reg_square {
         width: 24px;
         height: 24px;
