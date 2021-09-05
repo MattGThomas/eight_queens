@@ -1,0 +1,70 @@
+.reg_square {
+    /* background: #fff; */
+    border: 2px solid #999;
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 75px;
+    width: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.ls {
+    background: #fff;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 75px;
+    width: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    border-top: 2px solid #999;
+    border-right: white;
+    border-left: white;
+    border-bottom: white;
+    
+}
+.ls:first-child {
+    border-top: white
+}
+.number_square {
+    background: #fff;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 75px;
+    width: 75px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-bottom: white
+}
+@media (max-width: 400px) {
+    .reg_square {
+        width: 44px;
+        height: 44px;
+        font-size: 24px
+    }
+    .ls {
+        width: 44px;
+        height: 44px;
+        font-size: 10px
+    }
+    .number_square {
+        width: 44px;
+        height: 44px;
+        font-size: 10px
+    }
+}

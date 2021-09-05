@@ -2,12 +2,26 @@ body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
+@media(max-width: 400px) {
+    body {
+        margin: 10px 0 0 0;
+    }
+}
   
 ol, ul {
     padding-left: 30px;
 }
   
-
+.title {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 36px;
+}
+@media (max-width: 400px) {
+    .title {
+        font-size: 20px
+    }
+}
 .board-row:after {
     clear: both;
     content: "";
@@ -18,88 +32,12 @@ ol, ul {
     margin-bottom: 1.0px;
 }
   
-.reg_square {
-    /* background: #fff; */
-    border: 2px solid #999;
-    float: left;
-    font-size: 48px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 75px;
-    width: 75px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-.ls {
-    background: #fff;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 75px;
-    width: 75px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    border-top: 2px solid #999;
-    border-right: white;
-    border-left: white;
-    border-bottom: white;
-    
-}
-.ls:first-child {
-    border-top: white
-}
-
-.number_square {
-    
-        background: #fff;
-        float: left;
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 34px;
-        height: 75px;
-        width: 75px;
-        margin-right: -1px;
-        margin-top: -1px;
-        padding: 0;
-        text-align: center;
-        border-top: white;
-        border-right: white;
-        border-left: white;
-        border-bottom: white
-        
-}
-@media (max-width: 500px) {
-    .reg_square {
-        width: 40px;
-        height: 40px;
-        font-size: 30px
-    }
-    .ls {
-        width: 40px;
-        height: 40px;
-        font-size: 30px
-    }
-    .number_square {
-        width: 40px;
-        height: 40px;
-        font-size: 30px
-    }
-}
-
 .color {
-      color: black
+    color: black
 }
   
 .wrong_color {
-      color: red
+    color: red
 }
   
 .square:focus {
@@ -114,6 +52,11 @@ ol, ul {
     display: flex;
     flex-direction: row;
 }
+@media (max-width: 400px) {
+    .game {
+        display: block
+    }
+}
   
 .game-info {
     margin-left: 20px;
@@ -124,6 +67,14 @@ ol, ul {
 }
 @media (max-width: 500px) {
     .rows {
-        flex-direction: column;
+        display: block
+        /* flex-direction: column; */
     }
+}
+.error-message {
+    width:100%;
+    margin: 0 auto;
+    color: red;
+    display: flex;
+    align-content: center;
 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 class Square extends Component {
 
-
     render() {
         return (
             <button
@@ -11,7 +10,6 @@ class Square extends Component {
                 {this.props.value}
             </button>
         )
-
     }
 }
 

@@ -432,7 +432,7 @@ function calculate_errors(squares) {
             ) {
             return (
                 <div>
-                    you may not place multiple X's in any diagonal, please try again
+                    you may not place multiple X's in any diagonal.<br/> please try again
                 </div>
             )
         }
@@ -448,7 +448,7 @@ function calculate_errors(squares) {
             ) {
             return (
                 <div>
-                    you may not place multiple X's in any row, please try again
+                    you may not place multiple X's in any row.<br/> please try again
                 </div>
             )
         }
@@ -463,7 +463,7 @@ function calculate_errors(squares) {
             column_h_filter.length > 1 ) {
             return (
                 <div>
-                    you may not place multiple X's in any column, please try again
+                    you may not place multiple X's in any column.<br/> please try again
                 </div>
             )
         }
