@@ -53,18 +53,18 @@
 }
 @media (max-width: 500px) {
     .reg_square {
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
         font-size: 24px
     }
     .ls {
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
         font-size: 10px
     }
     .number_square {
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
         font-size: 10px
     }
 }
