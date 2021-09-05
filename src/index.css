@@ -78,19 +78,19 @@ ol, ul {
 }
 @media (max-width: 500px) {
     .reg_square {
-        width: 24px;
-        height: 24px;
-        font-size: 18px
+        width: 36px;
+        height: 36px;
+        font-size: 24px
     }
     .ls {
-        width: 24px;
-        height: 24px;
-        font-size: 18px
+        width: 36px;
+        height: 36px;
+        font-size: 24px
     }
     .number_square {
-        width: 24px;
-        height: 24px;
-        font-size: 18px
+        width: 36px;
+        height: 36px;
+        font-size: 24px
     }
 }
 
@@ -122,7 +122,7 @@ ol, ul {
 .rows {
     display: flex
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .rows {
         flex-direction: column;
     }
