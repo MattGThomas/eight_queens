@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import calculate_winner from '../helpers/calculate_errors';
+
 import Rows from './Rows'
-import LetterRow from './LetterRow';
+
 import '../index.css';
 
 
@@ -19,7 +19,7 @@ class Board extends Component {
         return (
             <div>
             <Rows renderSquare={this.renderSquare} squares={this.props.squares}/>
-            <LetterRow renderSquare={this.renderSquare} />
+
             </div>
         );
     }

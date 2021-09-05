@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LetterSquare from './LetterSquare'
+import LetterSquare from './Squares/LetterSquare'
 
 class LetterRow extends Component {
     state = {
