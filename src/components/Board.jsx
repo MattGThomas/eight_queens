@@ -18,11 +18,11 @@ class Board extends Component {
     
         return (
             <div>
-                <div className='title'>
+                {/* <div className='title'>
                     <div>
                         Eight Queens Game
                     </div>
-                </div>
+                </div> */}
                 <div>
                     <Rows renderSquare={this.renderSquare} squares={this.props.squares}/>
                 </div>
