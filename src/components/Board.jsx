@@ -19,7 +19,7 @@ class Board extends Component {
         return (
             <div>
             <Rows renderSquare={this.renderSquare} squares={this.props.squares}/>
-            <LetterRow renderSquare={this.renderSquare} />
+            {/* <LetterRow renderSquare={this.renderSquare} /> */}
             </div>
         );
     }

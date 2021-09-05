@@ -34,6 +34,7 @@ ol, ul {
     cursor: pointer;
 }
 
+
 .ls {
     background: #fff;
     float: left;
@@ -74,7 +75,23 @@ ol, ul {
         border-left: white;
         border-bottom: white
         
-    
+}
+@media (max-width: 400px) {
+    .reg_square {
+        width: 36px;
+        height: 36px;
+        font-size: 24px
+    }
+    .ls {
+        width: 36px;
+        height: 36px;
+        font-size: 24px
+    }
+    .number_square {
+        width: 36px;
+        height: 36px;
+        font-size: 24px
+    }
 }
 
 .color {
@@ -102,3 +119,11 @@ ol, ul {
     margin-left: 20px;
 }
   
+.rows {
+    display: flex
+}
+@media (max-width: 400px) {
+    .rows {
+        flex-direction: column;
+    }
+}

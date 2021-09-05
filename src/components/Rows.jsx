@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Square from './Squares/Square'
 import NumberSquare from './Squares/NumberSquare'
+import LetterRow from './LetterRow';
 import _ from 'lodash'
 import calculate_errors from '../helpers/calculate_errors';
 import Card from './Card'
@@ -53,7 +54,7 @@ class Rows extends Component {
         // const {squares} = this.props
         // console.log('this is squares from props', squares)
         return (
-            <div style={{display: 'flex'}}> 
+            <div className='rows'> 
                 <div>
                     <div className="board-row">
                         {this.renderSquare('8', true)}
@@ -144,6 +145,7 @@ class Rows extends Component {
                         {this.renderSquare(62)}
                         {this.renderSquare(63)}
                     </div>
+                    <LetterRow renderSquare={this.renderSquare} />
                 </div>
                 <div>
                     <Card squares={this.state.squares}/>
