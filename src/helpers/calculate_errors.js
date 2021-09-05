@@ -1,4 +1,4 @@
-const _ = require('lodash')
+
 
 function calculate_errors(squares) {
     const lines = [
@@ -12,7 +12,7 @@ function calculate_errors(squares) {
         [56, 57, 58, 59, 60, 61, 62, 63]
     ];
     for (let i = 0; i < lines.length; i++) {
-        const [a, b, c, d, e, f, g, h] = lines[i];
+        
         
 
         // this is the start of the diagonal logic

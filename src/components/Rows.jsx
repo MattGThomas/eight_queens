@@ -3,9 +3,9 @@ import Square from './Squares/Square'
 import NumberSquare from './Squares/NumberSquare'
 import LetterRow from './LetterRow';
 import _ from 'lodash'
-import calculate_errors from '../helpers/calculate_errors';
+
 import Card from './Card'
-import { GiChessQueen } from 'react-icons/gi'
+
 import '../index.css';
 
 
