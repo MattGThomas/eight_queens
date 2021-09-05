@@ -78,19 +78,19 @@ ol, ul {
 }
 @media (max-width: 500px) {
     .reg_square {
-        width: 36px;
-        height: 36px;
-        font-size: 24px
+        width: 40px;
+        height: 40px;
+        font-size: 30px
     }
     .ls {
-        width: 36px;
-        height: 36px;
-        font-size: 24px
+        width: 40px;
+        height: 40px;
+        font-size: 30px
     }
     .number_square {
-        width: 36px;
-        height: 36px;
-        font-size: 24px
+        width: 40px;
+        height: 40px;
+        font-size: 30px
     }
 }
 
